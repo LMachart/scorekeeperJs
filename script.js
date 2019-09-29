@@ -23,6 +23,7 @@ button1.addEventListener("click", function(){
         p1s.classList.add("green")
         button1.setAttribute("disabled", "true")
         button2.setAttribute("disabled", "true")
+
     }
 })
 
@@ -56,3 +57,12 @@ reset.addEventListener("click", function(){
 
     document.querySelector("#limit").value = 5
 })
+
+function printWinner(name){
+    if (score1>score2){
+        winner.textContent = "player1"
+    }
+    else{
+        winner.textContent = "player2"
+    }
+}

@@ -5,6 +5,10 @@
     margin-top: 25%;
     color: white;
 }
+.green{
+    color: green;
+    
+}
 body{
     background-image: url(background1.jpg);
     background-size: cover;

@@ -7,7 +7,10 @@
 }
 .green{
     color: green;
-    
+
+}
+#reset{
+    background-color: red;
 }
 body{
     background-image: url(background1.jpg);

@@ -8,7 +8,8 @@ const button2 = document.querySelector("#ctr2")
 const p2s = document.querySelector("#score2")
 const score2 = 0
 
-const reset=  document.querySelector("#reset")
+let reset=  document.querySelector("#reset")
+let winner = document.querySelector("#winner")
 
 button1.addEventListener("click", function(){
     let limit = document.querySelector("#limit").value;
@@ -51,7 +52,7 @@ reset.addEventListener("click", function(){
     score1, score2 = 0
 
     p1s.textContent = score1
+    p2s.textContent = score2
 
-
-
+    document.querySelector("#limit").value = 5
 })
